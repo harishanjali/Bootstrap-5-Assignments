@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    background-image: linear-gradient(to right,black,rgb(0, 255, 149));
+    font-weight: bold;
+}
+.company-logo{
+    height:50px;
+    width:50px;
+}
+.each-container{
+    height:200px;
+    cursor: pointer;
+}
+.each-container:hover{
+    background-image: linear-gradient(to bottom,black,white,black);
+}
+.each-container img{
+    height:100px;
+    width:100px;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    border: 2px solid #fff;
+}
+.quick-links a,.help-links a,.social-links a{
+    text-decoration: none;
+    color: #fff;
+}
+#contactUs{
+    background-image:linear-gradient(to bottom, rgb(232, 170, 240),rgb(160, 224, 123));
+}
+#portfolio{
+    background-image:linear-gradient(to bottom, rgb(240, 170, 170),rgb(117, 212, 181));
+    margin-top:76px;
+}
+.about-us-content h1{
+    margin-top:56px;
+}
+#aboutUs{
+    background-image:linear-gradient(to right, rgb(40, 125, 221),rgb(34, 36, 35));
+}
+footer a:hover{
+    color: green;
+}
+.spacing-div{
+    height:60px;
+    /* margin-top: -60px;
+    visibility: hidden; */
+}
+.modal-dialog{
+    margin:unset !important;
+    margin-left:auto !important;
+    margin-right:10px !important;
+    margin-top:1.75rem !important;
+}
+.nav-tabs .nav-link{
+    color: black !important;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .nav-link:hover{
+        border:none;
+        color:goldenrod !important;
+    }
+}
